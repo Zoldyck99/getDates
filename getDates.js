@@ -1,13 +1,13 @@
 /**
  * 
- * @param {String} weekDay 
- * @param {String,Date} startDate 
- * @param {Integer} period 
- * @param {Integer} dateFormat 
- * @param {Boolean} reverse 
+ * @param {String} weekDay chosen day of week
+ * @param {Date} startDate date to start counting from, can be a String or Date object
+ * @param {Integer} period Months to count for
+ * @param {Integer} dateFormat Optional, accept integer value of 1, 2, 3
+ * @param {Boolean} reverse Optional, count in reverse to the given date
  * @returns array of date Strings
  */
-function getDates(weekDay='', startDate, period=1, dateFormat=1, reverse=false){
+function getDates(weekDay, startDate, period=1, dateFormat=1, reverse=false){
     try {
         let date = new Date(startDate);
         let endMonth = new Date(startDate);
@@ -121,4 +121,4 @@ function getDates(weekDay='', startDate, period=1, dateFormat=1, reverse=false){
     }          
 }
 
-export default getDates;
+module.exports = getDates;
