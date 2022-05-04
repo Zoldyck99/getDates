@@ -1,0 +1,21 @@
+{
+  "name": "getdates",
+  "version": "1.0.0",
+  "description": "Get Dates of coming/passing Sundays, Mondays, Tuesdays ...",
+  "main": "getDates.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zoldyck99/getDates.git"
+  },
+  "keywords": [],
+  "author": "Mr.Zoldyck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zoldyck99/getDates/issues"
+  },
+  "homepage": "https://github.com/Zoldyck99/getDates#readme"
+}
