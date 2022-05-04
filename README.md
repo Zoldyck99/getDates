@@ -16,4 +16,4 @@ period: (int) Number of months to count the dates to.
 
 dateFormat: (int) 1 = YYYY-MM-DD    2 = YYYY/MM/DD    3 = YYYY Month DD
 
-reverse: (boolean) to count for passing dates.
+reverse: (boolean) to count for passing dates if set to true.
